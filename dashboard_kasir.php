@@ -7,13 +7,13 @@ $riwayat_transaksi = mysqli_query($koneksi, "SELECT * FROM transaksi WHERE kasir
 ?>
 
 <div class="alert alert-info" role="alert">
-    Anda adalah Kasir. Tugas utama Anda adalah melakukan **Transaksi Penjualan**.
+    Anda adalah Kasir. Tugas utama Anda adalah melakukan Transaksi Penjualan.
 </div>
 
 <h3 class="mb-3 text-primary">Transaksi Penjualan Baru</h3>
 <a href="transaksi_penjualan.php" class="btn btn-success btn-lg"><i class="fas fa-cash-register"></i> Mulai Transaksi Sekarang</a>
 
-<h3 class="mt-5 mb-3 text-primary">Riwayat Transaksi Saya</h3>
+<h3 class="mt-5 mb-3 text-primary">Riwayat Transaksi</h3>
 
 <div class="table-responsive">
     <table class="table table-bordered table-striped">
